@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B1EBCF852A37A7270015169F /* CommunityCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCF842A37A7270015169F /* CommunityCareApp.swift */; };
-		B1EBCF872A37A7270015169F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCF862A37A7270015169F /* ContentView.swift */; };
 		B1EBCF892A37A7280015169F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EBCF882A37A7280015169F /* Assets.xcassets */; };
 		B1EBCF8D2A37A7280015169F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EBCF8C2A37A7280015169F /* Preview Assets.xcassets */; };
 		B1EBCFB22A394F7B0015169F /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCFB12A394F7B0015169F /* HomePage.swift */; };
+		B1EBCFB62A3969E80015169F /* FoodBankPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCFB52A3969E80015169F /* FoodBankPage.swift */; };
+		B1EBCFB82A396E620015169F /* SmallBizPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCFB72A396E620015169F /* SmallBizPage.swift */; };
+		B1EBCFBA2A396EA00015169F /* ToDoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCFB92A396EA00015169F /* ToDoPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1EBCF812A37A7270015169F /* CommunityCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommunityCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EBCF842A37A7270015169F /* CommunityCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCareApp.swift; sourceTree = "<group>"; };
-		B1EBCF862A37A7270015169F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1EBCF882A37A7280015169F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1EBCF8A2A37A7280015169F /* CommunityCare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CommunityCare.entitlements; sourceTree = "<group>"; };
 		B1EBCF8C2A37A7280015169F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1EBCFB12A394F7B0015169F /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		B1EBCFB52A3969E80015169F /* FoodBankPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankPage.swift; sourceTree = "<group>"; };
+		B1EBCFB72A396E620015169F /* SmallBizPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBizPage.swift; sourceTree = "<group>"; };
+		B1EBCFB92A396EA00015169F /* ToDoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				B1EBCF842A37A7270015169F /* CommunityCareApp.swift */,
-				B1EBCF862A37A7270015169F /* ContentView.swift */,
 				B1EBCFB12A394F7B0015169F /* HomePage.swift */,
+				B1EBCFB52A3969E80015169F /* FoodBankPage.swift */,
+				B1EBCFB72A396E620015169F /* SmallBizPage.swift */,
+				B1EBCFB92A396EA00015169F /* ToDoPage.swift */,
 				B1EBCF882A37A7280015169F /* Assets.xcassets */,
 				B1EBCF8A2A37A7280015169F /* CommunityCare.entitlements */,
 				B1EBCF8B2A37A7280015169F /* Preview Content */,
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1EBCF872A37A7270015169F /* ContentView.swift in Sources */,
 				B1EBCFB22A394F7B0015169F /* HomePage.swift in Sources */,
+				B1EBCFB82A396E620015169F /* SmallBizPage.swift in Sources */,
+				B1EBCFB62A3969E80015169F /* FoodBankPage.swift in Sources */,
+				B1EBCFBA2A396EA00015169F /* ToDoPage.swift in Sources */,
 				B1EBCF852A37A7270015169F /* CommunityCareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
