@@ -14,6 +14,12 @@
 		B1EBCFB62A3969E80015169F /* FoodBankPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCFB52A3969E80015169F /* FoodBankPage.swift */; };
 		B1EBCFB82A396E620015169F /* SmallBizPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCFB72A396E620015169F /* SmallBizPage.swift */; };
 		B1EBCFBA2A396EA00015169F /* ToDoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBCFB92A396EA00015169F /* ToDoPage.swift */; };
+		D11611E82A3B804400012915 /* NaYa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11611E72A3B804400012915 /* NaYa.swift */; };
+		D11611EA2A3B80FC00012915 /* TPhoenix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11611E92A3B80FC00012915 /* TPhoenix.swift */; };
+		D11611EC2A3B815100012915 /* A16.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11611EB2A3B815100012915 /* A16.swift */; };
+		D11611EE2A3B815F00012915 /* DAKChicken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11611ED2A3B815F00012915 /* DAKChicken.swift */; };
+		D11611F02A3B817300012915 /* PasqualesPizzeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11611EF2A3B817300012915 /* PasqualesPizzeria.swift */; };
+		D11611F22A3B817E00012915 /* DumplingKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11611F12A3B817E00012915 /* DumplingKitchen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		B1EBCFB52A3969E80015169F /* FoodBankPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankPage.swift; sourceTree = "<group>"; };
 		B1EBCFB72A396E620015169F /* SmallBizPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBizPage.swift; sourceTree = "<group>"; };
 		B1EBCFB92A396EA00015169F /* ToDoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoPage.swift; sourceTree = "<group>"; };
+		D11611E72A3B804400012915 /* NaYa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaYa.swift; sourceTree = "<group>"; };
+		D11611E92A3B80FC00012915 /* TPhoenix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPhoenix.swift; sourceTree = "<group>"; };
+		D11611EB2A3B815100012915 /* A16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A16.swift; sourceTree = "<group>"; };
+		D11611ED2A3B815F00012915 /* DAKChicken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAKChicken.swift; sourceTree = "<group>"; };
+		D11611EF2A3B817300012915 /* PasqualesPizzeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasqualesPizzeria.swift; sourceTree = "<group>"; };
+		D11611F12A3B817E00012915 /* DumplingKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumplingKitchen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				B1EBCFB12A394F7B0015169F /* HomePage.swift */,
 				B1EBCFB52A3969E80015169F /* FoodBankPage.swift */,
 				B1EBCFB72A396E620015169F /* SmallBizPage.swift */,
+				D11611E72A3B804400012915 /* NaYa.swift */,
+				D11611E92A3B80FC00012915 /* TPhoenix.swift */,
+				D11611EB2A3B815100012915 /* A16.swift */,
+				D11611ED2A3B815F00012915 /* DAKChicken.swift */,
+				D11611EF2A3B817300012915 /* PasqualesPizzeria.swift */,
+				D11611F12A3B817E00012915 /* DumplingKitchen.swift */,
 				B1EBCFB92A396EA00015169F /* ToDoPage.swift */,
 				B1EBCF882A37A7280015169F /* Assets.xcassets */,
 				B1EBCF8A2A37A7280015169F /* CommunityCare.entitlements */,
@@ -148,11 +166,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11611EA2A3B80FC00012915 /* TPhoenix.swift in Sources */,
 				B1EBCFB22A394F7B0015169F /* HomePage.swift in Sources */,
 				B1EBCFB82A396E620015169F /* SmallBizPage.swift in Sources */,
 				B1EBCFB62A3969E80015169F /* FoodBankPage.swift in Sources */,
+				D11611F22A3B817E00012915 /* DumplingKitchen.swift in Sources */,
+				D11611EC2A3B815100012915 /* A16.swift in Sources */,
+				D11611EE2A3B815F00012915 /* DAKChicken.swift in Sources */,
 				B1EBCFBA2A396EA00015169F /* ToDoPage.swift in Sources */,
+				D11611E82A3B804400012915 /* NaYa.swift in Sources */,
 				B1EBCF852A37A7270015169F /* CommunityCareApp.swift in Sources */,
+				D11611F02A3B817300012915 /* PasqualesPizzeria.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CommunityCare/Preview Content\"";
-				DEVELOPMENT_TEAM = C25Z78LNAL;
+				DEVELOPMENT_TEAM = 63Z7FCYJYU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -315,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CommunityCare/Preview Content\"";
-				DEVELOPMENT_TEAM = C25Z78LNAL;
+				DEVELOPMENT_TEAM = 63Z7FCYJYU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
