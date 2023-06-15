@@ -12,9 +12,15 @@ struct PasqualesPizzeria: View {
         ScrollView{
             VStack{
                 Text("Pasquale's Pizzeria")
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
                     .font(.system(size:30))
+                    .foregroundColor(.black)
+                
+                    .padding()
+                    .background(Rectangle()
+                    
+                        .cornerRadius(50)
+                        .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                Image("Filler")
                 Group{
                     HStack{
                         Image("pizza")
@@ -41,15 +47,13 @@ struct PasqualesPizzeria: View {
                     .multilineTextAlignment(.leading)
                 Text("Location: 700 Irving St, San Francisco, CA")
                     .padding()
-                Text("Website:")
-                    .multilineTextAlignment(.leading)
-            Text("https://www.dak-chicken.com/")
                 
             }
         }
         .padding(50)
-    }
-}
+        }
+        }
+
 
 struct PasqualesPizzeria_Previews: PreviewProvider {
     static var previews: some View {

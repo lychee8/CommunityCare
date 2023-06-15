@@ -11,13 +11,17 @@ struct SmallBizPage: View {
     var body: some View {
         ScrollView{
             VStack{
-                //make font dark green
                 //title
                 Text("Small Businesses")
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
-                    .font(.system(size:30))
-                Spacer(minLength: 50)
+                    .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(.black)
+                
+                    .padding()
+                    .background(Rectangle()
+                    
+                        .cornerRadius(50)
+                        .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                Spacer(minLength: 40)
                 //Na Ya
                 Group {
                     HStack{
@@ -31,7 +35,7 @@ struct SmallBizPage: View {
                                 .padding(.bottom, 1.0)
                             NavigationLink(destination:NaYa()) {
                                 Text("Learn more")}
-                            Spacer(minLength: 50)
+                            Spacer(minLength: 10)
                         }
                     }
                     Image("Filler")
@@ -49,7 +53,7 @@ struct SmallBizPage: View {
                                 .padding(.bottom, 1.0)
                             NavigationLink(destination:TPhoenix()) {
                                 Text("Learn more")}
-                            Spacer(minLength: 50)
+                            Spacer(minLength: 40)
                         }
                     }
                     Image("Filler")
@@ -57,7 +61,7 @@ struct SmallBizPage: View {
                 //A 16
                 Group{
                     HStack{
-                        Image("A16Logo")
+                        Image("a161")
                             .resizable(resizingMode:.stretch)
                             .aspectRatio(contentMode: .fit)
                         VStack{
@@ -66,9 +70,9 @@ struct SmallBizPage: View {
                                 .font(.system(size:20))
                             NavigationLink(destination:A16()) {
                                 Text("      Learn more")}
-                            Spacer(minLength: 50)
+                            Spacer(minLength: 10)
                         }
-                        Spacer(minLength: 50)
+                        Spacer(minLength: 30)
                     }
                     Image("Filler")
                 }
@@ -84,7 +88,7 @@ struct SmallBizPage: View {
                                 .font(.system(size:20))
                             NavigationLink(destination:DAKChicken()) {
                                 Text("Learn more")}
-                            Spacer(minLength: 50)
+                            Spacer(minLength: 30)
                         }
                     }
                     Image("Filler")
@@ -101,7 +105,7 @@ struct SmallBizPage: View {
                                 .font(.system(size:20))
                             NavigationLink(destination:PasqualesPizzeria()) {
                                 Text("Learn more")}
-                            Spacer(minLength: 50)
+                            Spacer(minLength: 30)
                         }
                     }
                     Image("Filler")
@@ -118,7 +122,7 @@ struct SmallBizPage: View {
                                 .font(.system(size:20))
                             NavigationLink(destination:DumplingKitchen()) {
                                 Text("Learn more")}
-                            Spacer(minLength: 50)
+                            Spacer(minLength: 30)
                         }
                     }
                 }
@@ -126,7 +130,7 @@ struct SmallBizPage: View {
             }
             .padding(50)
         }
-    }
+        }
     
     struct SmallBizPage_Previews: PreviewProvider {
         static var previews: some View {
