@@ -11,10 +11,16 @@ struct DumplingKitchen: View {
     var body: some View {
         ScrollView{
             VStack{
-                Text("DumplingKitchen")
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
+                Text("Dumpling Kitchen")
                     .font(.system(size:30))
+                    .foregroundColor(.black)
+                
+                    .padding()
+                    .background(Rectangle()
+                    
+                        .cornerRadius(50)
+                        .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                Image("Filler")
                 Group{
                     HStack{
                         Image("bao")
@@ -39,7 +45,7 @@ struct DumplingKitchen: View {
                     .padding()
                 Text("Price point: $$")
                     .multilineTextAlignment(.leading)
-                Text("Location: -1935 Taraval St -544 Castro St")
+                Text("Location:                                 -1935 Taraval St                        -544 Castro St")
                     .padding()
                 Text("Website:")
                     .multilineTextAlignment(.leading)
@@ -48,8 +54,9 @@ struct DumplingKitchen: View {
             }
         }
         .padding(50)
-    }
-}
+        }
+        }
+
 
 struct DumplingKitchen_Previews: PreviewProvider {
     static var previews: some View {

@@ -13,9 +13,15 @@ struct NaYa: View {
             //fix scroll bar?
             VStack{
                 Text("Na Ya Dessert Cafe")
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
                     .font(.system(size:30))
+                    .foregroundColor(.black)
+                
+                    .padding()
+                    .background(Rectangle()
+                    
+                        .cornerRadius(50)
+                        .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                Image("Filler")
                 Group{
                     HStack{
                         Image("Nayadessert")
@@ -40,7 +46,7 @@ struct NaYa: View {
                     .padding()
                 Text("Price point: $$")
                     .multilineTextAlignment(.leading)
-                Text("Locations                                          -5338 Geary Blvd                               -535 Octavia St.")
+                Text("Locations                                          -5338 Geary Blvd                               -535 Octavia St")
                     .padding()
                 Text("Website:")
                     .multilineTextAlignment(.leading)
@@ -50,8 +56,9 @@ struct NaYa: View {
             }
         }
         .padding(50)
-    }
-}
+        }
+        }
+
 
 struct NaYa_Previews: PreviewProvider {
     static var previews: some View {

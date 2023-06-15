@@ -13,9 +13,15 @@ struct TPhoenix: View {
             //fix scroll bar?
             VStack{
                 Text("T Phoenix")
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
                     .font(.system(size:30))
+                    .foregroundColor(.black)
+                
+                    .padding()
+                    .background(Rectangle()
+                    
+                        .cornerRadius(50)
+                        .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                Image("Filler")
                 Group{
                     HStack{
                         Image("boba")
@@ -50,8 +56,9 @@ struct TPhoenix: View {
             }
         }
         .padding(50)
-    }
-}
+        }
+        }
+
 
 
 struct TPhoenix_Previews: PreviewProvider {

@@ -10,21 +10,28 @@ import SwiftUI
 struct A16: View {
     var body: some View {
         ScrollView{
-            VStack{
-                Text("A 16")
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
-                    .font(.system(size:30))
-                Group{
-                    HStack{
-                        Image("a16")
-                            .resizable(resizingMode:.stretch)
-                            .aspectRatio(contentMode: .fit)
-                        Image("pasta")
-                            .resizable(resizingMode:.stretch)
-                            .aspectRatio(contentMode: .fit)
-                    }
-                    HStack{
+            ScrollView{
+                VStack{
+                    Text("A 16")
+                        .font(.system(size:30))
+                        .foregroundColor(.black)
+                    
+                        .padding()
+                        .background(Rectangle()
+                                    
+                            .cornerRadius(50)
+                            .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                    Image("Filler")
+                    Group{
+                        HStack{
+                            Image("a16")
+                                .resizable(resizingMode:.stretch)
+                                .aspectRatio(contentMode: .fit)
+                            Image("pasta")
+                                .resizable(resizingMode:.stretch)
+                                .aspectRatio(contentMode: .fit)
+                        }
+                        HStack{
                             Image("burrata")
                                 .resizable(resizingMode:.stretch)
                                 .aspectRatio(contentMode: .fit)
@@ -32,22 +39,23 @@ struct A16: View {
                                 .resizable(resizingMode:.stretch)
                                 .aspectRatio(contentMode: .fit)
                         }
+                    }
+                    Image("Filler")
+                    Text("A 16 is an Italian restaurant that serves salad, pizza, handmade pasta, and cold cuts. It is most popular for it's pizza.")
+                        .multilineTextAlignment(.center)
+                        .padding()
+                    Text("Price point: $$$")
+                        .multilineTextAlignment(.leading)
+                    Text("Location: 2355 Chestnut St, San Francisco, CA")
+                        .padding()
+                    Text("Website:")
+                        .multilineTextAlignment(.leading)
+                    Text("https://www.a16pizza.com/location/san-francisco/#pizza")
+                    
                 }
-                Image("Filler")
-                Text("A 16 is an Italian restaurant that serves salad, pizza, handmade pasta, and cold cuts. It is most popular for it's pizza.")
-                    .multilineTextAlignment(.center)
-                    .padding()
-                Text("Price point: $$$")
-                    .multilineTextAlignment(.leading)
-                Text("Location: 2355 Chestnut St, San Francisco, CA")
-                    .padding()
-                Text("Website:")
-                    .multilineTextAlignment(.leading)
-            Text("https://www.a16pizza.com/location/san-francisco/#pizza")
-                
             }
+            .padding(50)
         }
-        .padding(50)
     }
 }
 

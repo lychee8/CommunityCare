@@ -12,9 +12,15 @@ struct DAKChicken: View {
         ScrollView{
             VStack{
                 Text("DAK Chicken")
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
                     .font(.system(size:30))
+                    .foregroundColor(.black)
+                
+                    .padding()
+                    .background(Rectangle()
+                    
+                        .cornerRadius(50)
+                        .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                Image("Filler")
                 Group{
                     HStack{
                         Image("dakchicken")
@@ -48,8 +54,9 @@ struct DAKChicken: View {
             }
         }
         .padding(50)
-    }
-}
+        }
+        }
+
 
 struct DAKChicken_Previews: PreviewProvider {
     static var previews: some View {
