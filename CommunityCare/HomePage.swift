@@ -31,8 +31,6 @@ struct HomePage: View {
                             .padding()
                         
                         Spacer()
-                        Spacer()
-                        Spacer()
                         
                             HStack(spacing: 20){
                                 Image ("SmallBizHP")
@@ -47,7 +45,7 @@ struct HomePage: View {
                             }
                             
                         
-                        
+        
     
                             .padding()
                         Text("Welcome to Community Care! Here you can find food banks and small businesses that you can support in your area. If you are coordinating an event, we also have a To-Do tab to help you keep track of everything.")
@@ -60,6 +58,21 @@ struct HomePage: View {
                                 .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
                             .padding()
                         Spacer()
+                    
+//                        Image("SBHP")
+//                            .resizable()
+//                            .scaledToFit()
+//                        Text ("We connect you to local samll businesses that you can visit and support. Click on the Small Businesses tab at the bottom to learn more.")
+//                            .font(.callout)
+//                            .padding()
+//
+//                            .padding()
+//                            .background(Rectangle()
+//
+//                                .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+//                            .padding()
+//                        Spacer()
+                       
                         
                             .toolbar{
                                 ToolbarItemGroup(placement: .status){
@@ -82,7 +95,6 @@ struct HomePage: View {
                                     }
                                 }
             
-                                
                                 
                                 
                                 
