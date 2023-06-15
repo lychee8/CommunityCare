@@ -36,12 +36,11 @@ struct HomePage: View {
                                 Image ("SmallBizHP")
                                     .resizable()
                                     .scaledToFit()
-                                    .cornerRadius(10)
                                     
                                 Image ("FoodBankHP")
                                     .resizable()
                                     .scaledToFit()
-                                    .cornerRadius(10)
+                
                             }
                             
                         Text("Welcome to Community Care! Here you can find food banks and small businesses that you can support in your area. If you are coordinating an event, we also have a To-Do tab to help you keep track of everything.")
