@@ -44,10 +44,6 @@ struct HomePage: View {
                                     .cornerRadius(10)
                             }
                             
-                        
-        
-    
-                            .padding()
                         Text("Welcome to Community Care! Here you can find food banks and small businesses that you can support in your area. If you are coordinating an event, we also have a To-Do tab to help you keep track of everything.")
                             .font(.callout)
                             .padding()
@@ -57,22 +53,53 @@ struct HomePage: View {
 
                                 .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
                             .padding()
-                        Spacer()
+            
                     
-//                        Image("SBHP")
-//                            .resizable()
-//                            .scaledToFit()
-//                        Text ("We connect you to local samll businesses that you can visit and support. Click on the Small Businesses tab at the bottom to learn more.")
-//                            .font(.callout)
-//                            .padding()
-//
-//                            .padding()
-//                            .background(Rectangle()
-//
-//                                .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
-//                            .padding()
-//                        Spacer()
-                       
+                        VStack{
+                            Image("SBHP")
+                                .resizable()
+                                .scaledToFit()
+                            Text ("We connect you to local small businesses that you can visit and support. Click on the Small Businesses tab at the bottom to learn more.")
+                                .font(.callout)
+                                .padding()
+                            
+                                .padding()
+                                .background(Rectangle()
+                                            
+                                    .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                                .padding()
+                         
+                            
+                            Image("FBHP")
+                                .resizable()
+                                .scaledToFit()
+                            Text ("We connect you to local food banks that you can volunteer at. Click on the Food Banks tab at the bottom to learn more.")
+                                .font(.callout)
+                                .padding()
+                            
+                                .padding()
+                                .background(Rectangle()
+                                            
+                                    .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                                .padding()
+                      
+                            
+                            Image("TDHP")
+                                .resizable()
+                                .scaledToFit()
+                            Text ("We created a To-Do section for small business owners and food bank coordinators to use to hep keep track of the tasks that they need to do Click on the To-Do tab at the bottom to learn more.")
+                                .font(.callout)
+                                .padding()
+                            
+                                .padding()
+                                .background(Rectangle()
+                                            
+                                    .foregroundColor(Color(hue: 0.524, saturation: 0.200, brightness: 0.947)))
+                                .padding()
+                            Spacer()
+                            
+                            
+                        }
                         
                             .toolbar{
                                 ToolbarItemGroup(placement: .status){
