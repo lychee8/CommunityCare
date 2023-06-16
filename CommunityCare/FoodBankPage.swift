@@ -70,7 +70,7 @@ struct FoodBankPage: View {
                             //                            Image("Filler")
                             Text("Mission Food  Hub        ")
                                 .font(.system(size:20))
-                            NavigationLink(destination:A16()) {
+                            NavigationLink(destination:MissionFoodHub()) {
                                 Text("      Learn more")}
                             Spacer(minLength: 10)
                         }
@@ -88,7 +88,7 @@ struct FoodBankPage: View {
                             Image("Filler")
                             Text("Alameda County Community Food Bank")
                                 .font(.system(size:20))
-                            NavigationLink(destination:DAKChicken()) {
+                            NavigationLink(destination:AlamedaFoodBank()) {
                                 Text("Learn more")}
                             Spacer(minLength: 30)
                         }

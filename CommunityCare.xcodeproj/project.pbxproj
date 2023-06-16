@@ -22,6 +22,8 @@
 		D11611F22A3B817E00012915 /* DumplingKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11611F12A3B817E00012915 /* DumplingKitchen.swift */; };
 		F7CA57B22A3C44080001FF87 /* SFMarin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA57B12A3C44080001FF87 /* SFMarin.swift */; };
 		F7CA57B42A3C4CAE0001FF87 /* StAnthony.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA57B32A3C4CAE0001FF87 /* StAnthony.swift */; };
+		F7CA57B62A3CB2510001FF87 /* MissionFoodHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA57B52A3CB2510001FF87 /* MissionFoodHub.swift */; };
+		F7CA57B82A3CB5520001FF87 /* AlamedaFoodBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA57B72A3CB5520001FF87 /* AlamedaFoodBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		D11611F12A3B817E00012915 /* DumplingKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumplingKitchen.swift; sourceTree = "<group>"; };
 		F7CA57B12A3C44080001FF87 /* SFMarin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFMarin.swift; sourceTree = "<group>"; };
 		F7CA57B32A3C4CAE0001FF87 /* StAnthony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StAnthony.swift; sourceTree = "<group>"; };
+		F7CA57B52A3CB2510001FF87 /* MissionFoodHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionFoodHub.swift; sourceTree = "<group>"; };
+		F7CA57B72A3CB5520001FF87 /* AlamedaFoodBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamedaFoodBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				B1EBCFB52A3969E80015169F /* FoodBankPage.swift */,
 				F7CA57B12A3C44080001FF87 /* SFMarin.swift */,
 				F7CA57B32A3C4CAE0001FF87 /* StAnthony.swift */,
+				F7CA57B52A3CB2510001FF87 /* MissionFoodHub.swift */,
+				F7CA57B72A3CB5520001FF87 /* AlamedaFoodBank.swift */,
 				B1EBCFB72A396E620015169F /* SmallBizPage.swift */,
 				D11611E72A3B804400012915 /* NaYa.swift */,
 				D11611E92A3B80FC00012915 /* TPhoenix.swift */,
@@ -176,11 +182,13 @@
 				D11611EA2A3B80FC00012915 /* TPhoenix.swift in Sources */,
 				B1EBCFB22A394F7B0015169F /* HomePage.swift in Sources */,
 				B1EBCFB82A396E620015169F /* SmallBizPage.swift in Sources */,
+				F7CA57B62A3CB2510001FF87 /* MissionFoodHub.swift in Sources */,
 				B1EBCFB62A3969E80015169F /* FoodBankPage.swift in Sources */,
 				D11611F22A3B817E00012915 /* DumplingKitchen.swift in Sources */,
 				D11611EC2A3B815100012915 /* A16.swift in Sources */,
 				D11611EE2A3B815F00012915 /* DAKChicken.swift in Sources */,
 				B1EBCFBA2A396EA00015169F /* ToDoPage.swift in Sources */,
+				F7CA57B82A3CB5520001FF87 /* AlamedaFoodBank.swift in Sources */,
 				D11611E82A3B804400012915 /* NaYa.swift in Sources */,
 				F7CA57B42A3C4CAE0001FF87 /* StAnthony.swift in Sources */,
 				B1EBCF852A37A7270015169F /* CommunityCareApp.swift in Sources */,

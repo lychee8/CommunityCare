@@ -1,5 +1,5 @@
 //
-//  StAnthony.swift
+//  MissionFoodHub.swift
 //  CommunityCare
 //
 //  Created by Elizabeth  Hsu on 6/16/23.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct StAnthony: View {
+struct MissionFoodHub: View {
     var body: some View {
         ScrollView{
             VStack{
-                Text("St. Anthony's Foundation ")
+                Text("Mission Food Hub")
                     .font(.system(size:30))
                     .foregroundColor(.black)
                     
@@ -23,33 +23,34 @@ struct StAnthony: View {
                     Image("Filler")
                     Group{
                         HStack{
-                            Image("StAnthony1")
+                            Image("MissionFoodHub1")
                                 .resizable(resizingMode:.stretch)
                                 .aspectRatio(contentMode: .fit)
-                            Image("StAnthony2")
+                            Image("MissionFoodHub2")
                                 .resizable(resizingMode:.stretch)
                                 .aspectRatio(contentMode: .fit)
                         }
                         HStack{
-                                Image("StAnthony3")
+                                Image("MissionFoodHub3")
                                     .resizable(resizingMode:.stretch)
                                     .aspectRatio(contentMode: .fit)
-                                Image("StAnthony4")
+                                Image("MissionFoodHub4")
                                     .resizable(resizingMode:.stretch)
                                     .aspectRatio(contentMode: .fit)
                             }
                     }
                     Image("Filler")
-                    Text("We help address food insecurity by serving over 1,000 guests each day. We take pride in the quality of our meals, ensuring that they are not only nutritious, but delicious too!                                                          Our team provides valuable bridges to stability for our guests by connecting them to other services at St. Anthony’s and beyond. We also offer meaningful community-building activities after hours.")
+                    Text("We collectively serve our community by procuring and distributing culturally-appropriate and nutritious food to ensure the well-being of families and individuals. We are motivated by love, respect, and a desire to provide dignity to our Latino people who are experiencing hunger and are in need of food.")
+                
                         .multilineTextAlignment(.center)
                         .padding()
-                    Text("Number: (415) 241-2600")
+                    Text("Number: (415) 206-0577")
                         .multilineTextAlignment(.leading)
-                    Text("Location:                                          121 Golden Gate Avenue, 1st Floor                        ")
+                    Text("Location:                                                                                          701 Alabama Street San Francisco, CA 94110")
                         .padding()
                     Text("Website:")
                         .multilineTextAlignment(.leading)
-                Text("https://www.stanthonysf.org/services/dining-room/")
+                Text("https://www.missionfoodhub.org/ ")
                     //short desc, number, location, website
                     
                 }
@@ -59,8 +60,8 @@ struct StAnthony: View {
             }
 
 
-    struct StAnthony_Previews: PreviewProvider {
+    struct MissionFoodHub_Previews: PreviewProvider {
         static var previews: some View {
-            StAnthony()
+            MissionFoodHub()
         }
     }

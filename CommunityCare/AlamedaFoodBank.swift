@@ -1,5 +1,5 @@
 //
-//  StAnthony.swift
+//  AlamedaFoodBank.swift
 //  CommunityCare
 //
 //  Created by Elizabeth  Hsu on 6/16/23.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct StAnthony: View {
+struct AlamedaFoodBank: View {
     var body: some View {
         ScrollView{
             VStack{
-                Text("St. Anthony's Foundation ")
+                Text("Alameda County Community Food Bank")
                     .font(.system(size:30))
                     .foregroundColor(.black)
                     
@@ -23,33 +23,34 @@ struct StAnthony: View {
                     Image("Filler")
                     Group{
                         HStack{
-                            Image("StAnthony1")
+                            Image("AlamedaFoodBank1")
                                 .resizable(resizingMode:.stretch)
                                 .aspectRatio(contentMode: .fit)
-                            Image("StAnthony2")
+                            Image("AlamedaFoodBank2")
                                 .resizable(resizingMode:.stretch)
                                 .aspectRatio(contentMode: .fit)
                         }
                         HStack{
-                                Image("StAnthony3")
+                                Image("AlamedaFoodBank3")
                                     .resizable(resizingMode:.stretch)
                                     .aspectRatio(contentMode: .fit)
-                                Image("StAnthony4")
+                                Image("AlamedaFoodBank4")
                                     .resizable(resizingMode:.stretch)
                                     .aspectRatio(contentMode: .fit)
                             }
                     }
                     Image("Filler")
-                    Text("We help address food insecurity by serving over 1,000 guests each day. We take pride in the quality of our meals, ensuring that they are not only nutritious, but delicious too!                                                          Our team provides valuable bridges to stability for our guests by connecting them to other services at St. Anthony’s and beyond. We also offer meaningful community-building activities after hours.")
+                    Text("We distribute millions of healthy meals every year, and are on the forefront of new approaches to ending hunger and poverty. Alameda County Community Food Bank passionately pursues a hunger-free community.")
+                
                         .multilineTextAlignment(.center)
                         .padding()
-                    Text("Number: (415) 241-2600")
+                    Text("Number: 1-510-635-3773")
                         .multilineTextAlignment(.leading)
-                    Text("Location:                                          121 Golden Gate Avenue, 1st Floor                        ")
+                    Text("Location:                                                                                          7900 Edgewater Drive Oakland, CA 94621")
                         .padding()
                     Text("Website:")
                         .multilineTextAlignment(.leading)
-                Text("https://www.stanthonysf.org/services/dining-room/")
+                Text("https://www.accfb.org/get-involved/fundraise/ ")
                     //short desc, number, location, website
                     
                 }
@@ -59,8 +60,8 @@ struct StAnthony: View {
             }
 
 
-    struct StAnthony_Previews: PreviewProvider {
+    struct AlamedaFoodBank_Previews: PreviewProvider {
         static var previews: some View {
-            StAnthony()
+            AlamedaFoodBank()
         }
     }
