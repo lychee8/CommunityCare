@@ -13,3 +13,9 @@ struct ToDoPage: View {
         Text("Coming Soon!")
     }
 }
+
+struct ToDoPage_Previews: PreviewProvider {
+    static var previews: some View {
+        ToDoPage()
+    }
+}
